@@ -14,9 +14,9 @@ cache = Cache(app, config={'CACHE_TYPE': 'SimpleCache'})
 
 def get_connection():
     return snowflake.connector.connect(
-        user='ArnasJ',
-        password='Accenture2024',
-        account='XLBYUXQ-FF86421',
+        user='',
+        password='',
+        account='',
         warehouse='COMPUTE_WH',
         database='covid_data',
         schema='covid_schema'
